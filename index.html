@@ -1,197 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service - Postiz</title>
+  <meta charset="UTF-8" />
+  <title>Terms of Service - Postiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <style>
-        :root {
-            --bg: #0f1115;
-            --card: #161a20;
-            --text: #e6e6e6;
-            --muted: #9aa4b2;
-            --accent: #4f8cff;
-            --border: #262b36;
-        }
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-        * {
-            box-sizing: border-box;
-        }
+  <style>
+    * { box-sizing: border-box; }
 
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.7;
-        }
+    body {
+      margin: 0;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      background: #000;
+      color: #fff;
+    }
 
-        .container {
-            max-width: 900px;
-            margin: 50px auto;
-            padding: 40px;
-            background: var(--card);
-            border-radius: 14px;
-            box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
-        }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px 120px;
+    }
 
-        h1, h2 {
-            color: #ffffff;
-            margin-top: 30px;
-        }
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
 
-        h1 {
-            font-size: 2.4rem;
-            margin-bottom: 10px;
-        }
+    .logo img { height: 40px; }
 
-        h2 {
-            font-size: 1.4rem;
-            border-left: 4px solid var(--accent);
-            padding-left: 12px;
-        }
+    h1 {
+      text-align: center;
+      font-size: 60px;
+      margin-bottom: 60px;
+      font-weight: 800;
+    }
 
-        p {
-            color: var(--text);
-            margin: 12px 0;
-        }
+    h2 {
+      margin-top: 60px;
+      margin-bottom: 15px;
+      font-size: 26px;
+      font-weight: 700;
+    }
 
-        ul {
-            padding-left: 20px;
-        }
+    p, li {
+      color: #d1d1d1;
+      line-height: 1.8;
+      font-size: 16px;
+    }
 
-        li {
-            margin: 8px 0;
-        }
+    ul {
+      padding-left: 20px;
+    }
 
-        a {
-            color: var(--accent);
-            text-decoration: none;
-        }
+    .card {
+      background: #0f0f0f;
+      border-radius: 24px;
+      padding: 50px;
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .meta {
-            color: var(--muted);
-            font-size: 0.95rem;
-            margin-bottom: 30px;
-        }
-
-        footer {
-            margin-top: 60px;
-            padding-top: 20px;
-            border-top: 1px solid var(--border);
-            font-size: 0.9rem;
-            color: var(--muted);
-            text-align: center;
-        }
-
-        @media (max-width: 600px) {
-            .container {
-                padding: 25px;
-            }
-
-            h1 {
-                font-size: 2rem;
-            }
-        }
-    </style>
+    @media (max-width: 600px) {
+      h1 { font-size: 40px; }
+      .card { padding: 26px; }
+    }
+  </style>
 </head>
 <body>
 
 <div class="container">
 
-    <h1>Terms of Service</h1>
-    <p class="meta">Last updated: 29 December 2025</p>
+  <div class="logo">
+    <img src="https://postiz.com/_next/static/media/logo.7379cc96.svg" alt="Postiz Logo">
+  </div>
+
+  <h1>Terms of Service</h1>
+
+  <div class="card">
 
     <p>
-        Welcome to <strong>Postiz</strong> ("Service", "we", "our", "us").
-        By accessing or using this service, you agree to be bound by these Terms of Service.
-        If you do not agree, please do not use the service.
+      Welcome to Postiz, a self-hosted social media scheduling and content management service available at
+      https://postiz.harshchaudhary.dev (the "Service"). By accessing or using this Service, you agree to be bound
+      by these Terms of Service. If you do not agree, do not use the Service.
     </p>
 
-    <h2>1. Description of Service</h2>
+    <h2>1. Definitions</h2>
     <p>
-        Postiz is a social media content management platform that allows users to create,
-        schedule, and publish content to supported social media platforms, including TikTok,
-        using official APIs.
+      "Service" refers to the Postiz instance hosted at postiz.harshchaudhary.dev. "User", "you" refers to any
+      person who accesses or uses the Service. "Operator" refers to the owner and administrator of this Service.
     </p>
 
-    <h2>2. User Responsibilities</h2>
+    <h2>2. Eligibility</h2>
+    <p>
+      You must be at least 13 years old to use this Service. By using the Service, you represent that you meet this requirement.
+    </p>
+
+    <h2>3. Accounts and Security</h2>
+    <p>
+      You are responsible for safeguarding your account credentials and for all activity that occurs under your account.
+      You agree to notify us immediately of any unauthorized use of your account.
+    </p>
+
+    <h2>4. Acceptable Use</h2>
     <ul>
-        <li>You are responsible for all content you upload or publish.</li>
-        <li>You confirm that you own or have permission to use your content.</li>
-        <li>You will not use the service for illegal, abusive, or misleading activities.</li>
-        <li>You agree to follow all applicable laws and third-party platform policies.</li>
+      <li>You may not use the Service for unlawful purposes.</li>
+      <li>You may not attempt to gain unauthorized access to the Service or its infrastructure.</li>
+      <li>You may not abuse, overload, or disrupt the Service.</li>
+      <li>You are solely responsible for any content you publish or schedule.</li>
     </ul>
 
-    <h2>3. Third-Party Integrations</h2>
+    <h2>5. Content Responsibility</h2>
     <p>
-        Postiz connects to third-party platforms through official APIs.
-        We do not store third-party account passwords.
-        Authentication is handled securely via approved authorization methods.
+      You retain full ownership and responsibility for any content you submit, post, or schedule using the Service.
+      The operator does not review or moderate scheduled content.
     </p>
 
+    <h2>6. Third-Party Services</h2>
     <p>
-        We are not responsible for actions taken by third-party platforms, including content removal,
-        account suspension, or access limitations.
+      The Service integrates with third-party platforms such as social media networks. Your use of those platforms
+      is governed by their own terms. We are not responsible for third-party services, outages, restrictions, or bans.
     </p>
 
-    <h2>4. Data Collection & Privacy</h2>
-    <p>We only collect data necessary to operate the service, including:</p>
-    <ul>
-        <li>Account identifiers</li>
-        <li>Access tokens (securely stored)</li>
-        <li>Scheduled content and metadata</li>
-    </ul>
-
+    <h2>7. Payments and Subscriptions</h2>
     <p>
-        We do not sell or share your data with third parties.
+      If this instance requires payment, all fees are non-refundable unless required by law. The operator reserves the right
+      to change pricing or features at any time.
     </p>
 
-    <h2>5. Content Ownership</h2>
+    <h2>8. Availability and Reliability</h2>
     <p>
-        All content uploaded by users remains their property.
-        You grant us limited permission to process and transmit content solely for publishing purposes.
+      The Service is provided on a best-effort basis. We do not guarantee uptime, data durability, or uninterrupted access.
     </p>
 
-    <h2>6. Service Availability</h2>
+    <h2>9. Data Loss</h2>
     <p>
-        We aim to provide a reliable service but do not guarantee uninterrupted availability.
-        The service may be modified, suspended, or discontinued at any time.
+      You acknowledge that data loss is possible and that you are responsible for maintaining backups of your own content.
     </p>
 
-    <h2>7. Account Termination</h2>
+    <h2>10. Intellectual Property</h2>
     <p>
-        We reserve the right to suspend or terminate access if these terms are violated
-        or if required by law or platform policies.
+      The Postiz software is open-source and governed by its own license. The operator’s branding, configuration, and deployment
+      are protected by applicable laws.
     </p>
 
-    <h2>8. Limitation of Liability</h2>
+    <h2>11. Disclaimer of Warranties</h2>
     <p>
-        The service is provided "as is" without warranties of any kind.
-        We are not responsible for data loss, platform restrictions, or indirect damages.
+      The Service is provided "as is" and "as available" without warranties of any kind, express or implied.
     </p>
 
-    <h2>9. Changes to These Terms</h2>
+    <h2>12. Limitation of Liability</h2>
     <p>
-        These Terms may be updated at any time. Changes become effective once published on this page.
+      To the maximum extent permitted by law, the operator shall not be liable for any indirect, incidental, special,
+      consequential, or punitive damages.
     </p>
 
-    <h2>10. Contact Information</h2>
+    <h2>13. Indemnification</h2>
     <p>
-        <strong>Email:</strong> <a href="mailto:mail@harshchaudhary.dev">mail@harshchaudhary.dev</a><br>
-        <strong>Website:</strong> <a href="https://postiz.harshchaudhary.dev">https://postiz.harshchaudhary.dev</a>
+      You agree to indemnify and hold harmless the operator from any claims arising out of your use of the Service
+      or violation of these Terms.
     </p>
 
-    <footer>
-        © 2025 Postiz. All rights reserved.
-    </footer>
+    <h2>14. Termination</h2>
+    <p>
+      We may suspend or terminate your access to the Service at any time, with or without notice, for any reason.
+    </p>
 
+    <h2>15. Changes to These Terms</h2>
+    <p>
+      These Terms may be updated at any time. Continued use of the Service constitutes acceptance of the updated Terms.
+    </p>
+
+    <h2>16. Governing Law</h2>
+    <p>
+      These Terms shall be governed and interpreted according to the laws applicable in the operator’s jurisdiction.
+    </p>
+
+    <h2>17. Contact Information</h2>
+    <p>
+      For any legal or support inquiries, contact:<br>
+      <strong>mail@harshchaudhary.dev</strong>
+    </p>
+
+    <h2>18. Service Access</h2>
+    <p>
+      Login: https://postiz.harshchaudhary.dev/auth/login<br>
+      Getting started: https://postiz.harshchaudhary.dev/auth
+    </p>
+
+  </div>
 </div>
 
 </body>
