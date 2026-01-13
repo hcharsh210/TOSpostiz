@@ -13,64 +13,73 @@
     body {
       margin: 0;
       font-family: "Plus Jakarta Sans", sans-serif;
-      background: #6C4AF2;
-      color: #fff;
+      background: linear-gradient(135deg, #6C4AF2, #8B6CFF);
+      color: #111;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 0 auto;
-      padding: 40px 20px 120px;
+      padding: 60px 20px 140px;
     }
 
     .logo {
       display: flex;
       justify-content: center;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
 
-    .logo img { height: 40px; }
+    .logo img {
+      height: 48px;
+      filter: drop-shadow(0 6px 20px rgba(0,0,0,0.25));
+    }
 
     h1 {
       text-align: center;
-      font-size: 60px;
+      font-size: 64px;
       margin-bottom: 60px;
       font-weight: 800;
+      color: #fff;
+      letter-spacing: -1px;
     }
 
     h2 {
       margin-top: 60px;
-      margin-bottom: 15px;
+      margin-bottom: 12px;
       font-size: 26px;
-      font-weight: 700;
+      font-weight: 800;
+      color: #1a1a1a;
     }
 
     h3 {
-      margin-top: 35px;
+      margin-top: 30px;
       margin-bottom: 10px;
       font-size: 20px;
       font-weight: 700;
+      color: #222;
     }
 
     p, li {
-      color: #d1d1d1;
+      color: #333;
       line-height: 1.8;
       font-size: 16px;
     }
 
     ul {
-      padding-left: 20px;
+      padding-left: 22px;
     }
 
     .card {
-      background: #0f0f0f;
-      border-radius: 24px;
-      padding: 50px;
+      background: rgba(255,255,255,0.97);
+      backdrop-filter: blur(10px);
+      border-radius: 28px;
+      padding: 60px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.25);
     }
 
-    @media (max-width: 600px) {
-      h1 { font-size: 40px; }
-      .card { padding: 26px; }
+    @media (max-width: 700px) {
+      h1 { font-size: 42px; }
+      .card { padding: 28px; }
     }
   </style>
 </head>
@@ -79,7 +88,7 @@
 <div class="container">
 
   <div class="logo">
-    <img src="/multipoost-logo-text.svg" alt="Multipoost Logo">
+    <img src="https://multipoost.com/multipoost-logo-text.svg" alt="Multipoost Logo">
   </div>
 
   <h1>Privacy Policy</h1>
@@ -130,69 +139,41 @@
 
     <h2>4. Third-Party Services</h2>
     <p>
-      The Service integrates with third-party social networks. Their platforms are governed by their own
-      privacy policies. We are not responsible for their data practices.
+      The Service integrates with third-party platforms. Their use is governed by their own privacy policies.
+      We are not responsible for third-party data practices.
     </p>
 
-    <h2>5. Data Storage</h2>
+    <h2>5. Data Storage & Security</h2>
     <p>
-      All data is stored on the server hosting this Service. Reasonable security measures are used,
-      but no system can be guaranteed 100% secure.
+      All data is stored on our servers. Reasonable security measures are used, but no system is 100% secure.
     </p>
 
     <h2>6. Data Retention</h2>
     <p>
-      Data is retained as long as your account exists or as required for the operation of the Service.
-      You are responsible for maintaining your own backups.
+      Data is retained as long as your account exists or as required for operation of the Service.
     </p>
 
-    <h2>7. Data Sharing</h2>
-    <p>
-      We do not sell your personal data. Data is only shared with:
-    </p>
-    <ul>
-      <li>Connected social platforms when you publish content</li>
-      <li>Infrastructure providers required to operate the Service</li>
-      <li>Legal authorities if required by law</li>
-    </ul>
-
-    <h2>8. Your Rights</h2>
+    <h2>7. Your Rights</h2>
     <ul>
       <li>Request access to your data</li>
-      <li>Request deletion of your account and data</li>
+      <li>Request deletion of your account</li>
       <li>Request correction of incorrect data</li>
     </ul>
 
-    <h2>9. Cookies</h2>
+    <h2>8. Cookies</h2>
     <p>
-      The Service may use cookies or local storage for login sessions and preferences.
+      The Service uses cookies or local storage for login sessions and preferences.
     </p>
 
-    <h2>10. Security</h2>
+    <h2>9. Changes to This Policy</h2>
     <p>
-      We implement reasonable technical and organizational measures to protect your data,
-      but cannot guarantee absolute security.
+      This Privacy Policy may be updated at any time. Continued use means you accept the updated policy.
     </p>
 
-    <h2>11. Children's Privacy</h2>
+    <h2>10. Contact</h2>
     <p>
-      The Service is not intended for use by children under the age of 13.
-    </p>
-
-    <h2>12. Changes to This Policy</h2>
-    <p>
-      This Privacy Policy may be updated at any time. Continued use of the Service means you accept the updated policy.
-    </p>
-
-    <h2>13. Contact</h2>
-    <p>
-      If you have any questions about this Privacy Policy, contact:<br>
+      If you have any questions, contact:<br>
       <strong>mail@multipoost.com</strong>
-    </p>
-
-    <h2>14. Service Access</h2>
-    <p>
-      Website: https://multipoost.com
     </p>
 
   </div>
