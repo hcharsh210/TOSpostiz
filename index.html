@@ -13,57 +13,65 @@
     body {
       margin: 0;
       font-family: "Plus Jakarta Sans", sans-serif;
-      background: #000;
-      color: #fff;
+      background: linear-gradient(135deg, #6C4AF2, #8B6CFF);
+      color: #111;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 0 auto;
-      padding: 40px 20px 120px;
+      padding: 60px 20px 140px;
     }
 
     .logo {
       display: flex;
       justify-content: center;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
 
-    .logo img { height: 40px; }
+    .logo img {
+      height: 48px;
+      filter: drop-shadow(0 6px 20px rgba(0,0,0,0.25));
+    }
 
     h1 {
       text-align: center;
-      font-size: 60px;
+      font-size: 64px;
       margin-bottom: 60px;
       font-weight: 800;
+      color: #fff;
+      letter-spacing: -1px;
     }
 
     h2 {
       margin-top: 60px;
-      margin-bottom: 15px;
+      margin-bottom: 12px;
       font-size: 26px;
-      font-weight: 700;
+      font-weight: 800;
+      color: #1a1a1a;
     }
 
     p, li {
-      color: #d1d1d1;
+      color: #333;
       line-height: 1.8;
       font-size: 16px;
     }
 
     ul {
-      padding-left: 20px;
+      padding-left: 22px;
     }
 
     .card {
-      background: #0f0f0f;
-      border-radius: 24px;
-      padding: 50px;
+      background: rgba(255,255,255,0.97);
+      backdrop-filter: blur(10px);
+      border-radius: 28px;
+      padding: 60px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.25);
     }
 
-    @media (max-width: 600px) {
-      h1 { font-size: 40px; }
-      .card { padding: 26px; }
+    @media (max-width: 700px) {
+      h1 { font-size: 42px; }
+      .card { padding: 28px; }
     }
   </style>
 </head>
@@ -80,110 +88,56 @@
   <div class="card">
 
     <p>
-      Welcome to Multipoost, a social media scheduling and content management service available at
-      https://multipoost.com (the "Service"). By accessing or using this Service, you agree to be bound
-      by these Terms of Service. If you do not agree, do not use the Service.
+      Welcome to Multipoost ("Service") available at https://multipoost.com.
+      By using the Service, you agree to these Terms. If you do not agree, do not use the Service.
     </p>
 
-    <h2>1. Definitions</h2>
-    <p>
-      "Service" refers to the Multipoost platform hosted at multipoost.com. "User", "you" refers to any
-      person who accesses or uses the Service. "Operator" refers to the owner and administrator of this Service.
-    </p>
+    <h2>1. Eligibility</h2>
+    <p>You must be at least 13 years old to use this Service.</p>
 
-    <h2>2. Eligibility</h2>
-    <p>
-      You must be at least 13 years old to use this Service. By using the Service, you represent that you meet this requirement.
-    </p>
+    <h2>2. Accounts</h2>
+    <p>You are responsible for your account and all activity under it.</p>
 
-    <h2>3. Accounts and Security</h2>
-    <p>
-      You are responsible for safeguarding your account credentials and for all activity that occurs under your account.
-      You agree to notify us immediately of any unauthorized use of your account.
-    </p>
-
-    <h2>4. Acceptable Use</h2>
+    <h2>3. Acceptable Use</h2>
     <ul>
-      <li>You may not use the Service for unlawful purposes.</li>
-      <li>You may not attempt to gain unauthorized access to the Service or its infrastructure.</li>
-      <li>You may not abuse, overload, or disrupt the Service.</li>
-      <li>You are solely responsible for any content you publish or schedule.</li>
+      <li>No illegal use</li>
+      <li>No abuse or overload</li>
+      <li>No attempts to hack or bypass limits</li>
     </ul>
 
-    <h2>5. Content Responsibility</h2>
+    <h2>4. Content</h2>
     <p>
-      You retain full ownership and responsibility for any content you submit, post, or schedule using the Service.
-      The operator does not review or moderate scheduled content.
+      You are fully responsible for any content you publish or schedule.
     </p>
 
-    <h2>6. Third-Party Services</h2>
+    <h2>5. Third-Party Services</h2>
     <p>
-      The Service integrates with third-party platforms such as social media networks. Your use of those platforms
-      is governed by their own terms. We are not responsible for third-party services, outages, restrictions, or bans.
+      Multipoost integrates with third-party platforms. We are not responsible for their actions or policies.
     </p>
 
-    <h2>7. Payments and Subscriptions</h2>
+    <h2>6. Availability</h2>
     <p>
-      If the Service requires payment, all fees are non-refundable unless required by law. The operator reserves the right
-      to change pricing or features at any time.
+      The Service is provided "as-is" with no uptime guarantees.
     </p>
 
-    <h2>8. Availability and Reliability</h2>
+    <h2>7. Termination</h2>
     <p>
-      The Service is provided on a best-effort basis. We do not guarantee uptime, data durability, or uninterrupted access.
+      We may suspend or terminate your account at any time for any reason.
     </p>
 
-    <h2>9. Data Loss</h2>
+    <h2>8. Liability</h2>
     <p>
-      You acknowledge that data loss is possible and that you are responsible for maintaining backups of your own content.
+      We are not liable for any loss of data, revenue, or damages.
     </p>
 
-    <h2>10. Intellectual Property</h2>
+    <h2>9. Changes</h2>
     <p>
-      Multipoost software and branding are protected by applicable laws. Any third-party software used remains under its own license.
+      These terms may change at any time. Continued use means acceptance.
     </p>
 
-    <h2>11. Disclaimer of Warranties</h2>
+    <h2>10. Contact</h2>
     <p>
-      The Service is provided "as is" and "as available" without warranties of any kind, express or implied.
-    </p>
-
-    <h2>12. Limitation of Liability</h2>
-    <p>
-      To the maximum extent permitted by law, the operator shall not be liable for any indirect, incidental, special,
-      consequential, or punitive damages.
-    </p>
-
-    <h2>13. Indemnification</h2>
-    <p>
-      You agree to indemnify and hold harmless the operator from any claims arising out of your use of the Service
-      or violation of these Terms.
-    </p>
-
-    <h2>14. Termination</h2>
-    <p>
-      We may suspend or terminate your access to the Service at any time, with or without notice, for any reason.
-    </p>
-
-    <h2>15. Changes to These Terms</h2>
-    <p>
-      These Terms may be updated at any time. Continued use of the Service constitutes acceptance of the updated Terms.
-    </p>
-
-    <h2>16. Governing Law</h2>
-    <p>
-      These Terms shall be governed and interpreted according to the laws applicable in the operator’s jurisdiction.
-    </p>
-
-    <h2>17. Contact Information</h2>
-    <p>
-      For any legal or support inquiries, contact:<br>
       <strong>mail@multipoost.com</strong>
-    </p>
-
-    <h2>18. Service Access</h2>
-    <p>
-      Website: https://multipoost.com
     </p>
 
   </div>
